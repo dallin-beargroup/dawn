@@ -600,23 +600,6 @@
               "info": "Describe the video for customers using screen readers. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)"
             }
           }
-        },
-        "video-banner": {
-          "name": "Video Banner",
-          "settings": {
-            "cover_image": {
-              "label": "Cover image"
-            },
-            "video_url": {
-              "label": "URL",
-              "info": "Video plays in a pop-up if the section contains other blocks.",
-              "placeholder": "Use a YouTube or Vimeo URL"
-            },
-            "description": {
-              "label": "Video alt text",
-              "info": "Describe the video for customers using screen readers. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)"
-            }
-          }
         }
       },
       "presets": {
@@ -2992,6 +2975,52 @@
       },
       "presets": {
         "name": "Video"
+      }
+    },"video-banner": {
+      "name": "Video Banner",
+      "settings": {
+        "heading": {
+          "label": "Heading"
+        },
+        "cover_image": {
+          "label": "Cover image"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "enable_video_looping": {
+          "label": "Play video on loop"
+        },
+        "header__1": {
+          "content": "Shopify-hosted video"
+        },
+        "header__2": {
+          "content": "Or embed video from URL"
+        },
+        "header__3": {
+          "content": "Style"
+        },
+        "paragraph": {
+          "content": "Shows when no Shopify-hosted video is selected."
+        },
+        "video_url": {
+          "label": "URL",
+          "info": "Use a YouTube or Vimeo URL"
+        },
+        "description": {
+          "label": "Video alt text",
+          "info": "Describe the video for customers using screen readers. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
+        },
+        "image_padding": {
+          "label": "Add image padding",
+          "info": "Select image padding if you don't want your cover image to be cropped."
+        },
+        "full_width": {
+          "label": "Make section full width"
+        }
+      },
+      "presets": {
+        "name": "Video Banner"
       }
     },
     "slideshow": {
