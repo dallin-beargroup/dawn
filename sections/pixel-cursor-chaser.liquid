@@ -1,0 +1,45 @@
+<div id="pixel-cursor-container">
+    {% for i in (1..50) %}
+        <div class="pixel"></div>
+    {% endfor %}
+</div>
+
+<style>
+    #pixel-cursor-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none; /* Prevent the pixels from blocking mouse events */
+    }
+
+    .pixel {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        border-radius: 50%;
+    }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById('pixel-cursor-container');
+
+    // Function to update pixel positions
+    function updatePixels(event) {
+      const pixels = container.getElementsByClassName('pixel');
+      for (let i = 0; i < pixels.length; i++) {
+        const pixel = pixels[i];
+        const randomX = event.clientX + Math.random() * 100 - 50;
+        const randomY = event.clientY + Math.random() * 100 - 50;
+        pixel.style.left = randomX + 'px';
+        pixel.style.top = randomY + 'px';
+      }
+    }
+
+    // Event listener for mousemove
+    document.addEventListener('mousemove', updatePixels);
+  });
+</script>
