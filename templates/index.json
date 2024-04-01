@@ -42,19 +42,10 @@
         "padding_bottom": 52
       }
     },
-    "video_banner_D7Rdhn": {
-      "type": "video-banner",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+    "pixel_cursor_chaser": {
+      "type": "pixel-cursor-chaser",
+      "content": "<div id=\"pixel-cursor-container\">Some text</div>",
+      "settings": {}
     },
     "image_banner": {
       "type": "image-banner",
@@ -126,7 +117,7 @@
   },
   "order": [
     "rich_text_tHKb4J",
-    "video_banner_D7Rdhn",
+    "pixel_cursor_chaser",
     "image_banner",
     "featured_collection"
   ]
