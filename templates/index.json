@@ -1,5 +1,61 @@
 {
   "sections": {
+    "rich_text_tHKb4J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MeVTnn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test Text",
+            "heading_size": "h1"
+          }
+        },
+        "text_DUpGYQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_JjahdD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MeVTnn",
+        "text_DUpGYQ",
+        "button_JjahdD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_banner_D7Rdhn": {
+      "type": "video-banner",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -69,6 +125,8 @@
     }
   },
   "order": [
+    "rich_text_tHKb4J",
+    "video_banner_D7Rdhn",
     "image_banner",
     "featured_collection"
   ]
